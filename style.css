@@ -1,0 +1,109 @@
+h1 {
+	font-size: 48px;
+}
+
+h1, h2, h3 {
+	font-family: Times;
+	color: #0E3B43;
+}
+
+p {
+	font-size: 16px;
+	color: 4E8098;
+}
+
+a {
+	color:#e84a5f;
+	font-size: 24px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+a:hover {
+	color: blue;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	display: block;
+}
+
+#img-circle {
+	border-radius: 50%;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.9)
+}
+
+.container {
+	width:700px;
+	margin:40px auto;
+	margin-bottom:75px;
+	margin-top:75px;
+	text-align: center;
+}
+
+ @media (max-width: 800px){
+	.container {
+		background-color:#0E3B43;
+		width: 600px;
+	}
+}
+
+@media (max-width: 600px){
+	.container {
+		background-color:#0E3B43;
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 25px;
+	margin: 20px;
+}
+
+.card-white p{
+	text-align: justify;
+	margin-bottom: 50px;
+}
+
+#introduction h1 {
+	margin-bottom: 20px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding-left: 10px;
+}
+
+.list-inline i{
+	font-size: 35px;
+	color: rgb(180,180,180);
+}
+
+.list-inline i:hover {
+	color:#0E3B43;
+}
+
+.btn-blue{
+	background-color: #0E3B43;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+	font-size:14px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
